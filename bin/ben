@@ -1,0 +1,6 @@
+#!/usr/bin/env sh -l
+
+source $(dirname $(dirname $0))/lib/ben/utils.sh
+source $(dirname $(dirname $0))/lib/ben.sh
+
+run_command "$@"
